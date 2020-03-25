@@ -1,239 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>The Pawan Luhana</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
-
-  </head>
-
-  <body id="page-top">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">The Pawan Luhana</span>
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-        </span>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <div class="container-fluid p-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-          <h1 class="mb-0">Pawan
-            <span class="text-primary">Luhana</span>
-          </h1>
-          <div class="subheading mb-5">·
-            <a href="mailto:name@email.com">pawan.luhana@gmail.com</a>
-          </div>
-          <p class="mb-5">I'm a software developer. I have deverse skill set of Java, C, C++, Javascript, Angular, Android and iOS. I love my work and enjoy each new project as I get it.</p>
-          <ul class="list-inline list-social-icons mb-0">
-            <li class="list-inline-item">
-              <a href="http://www.twitter.com/thepawanluhana">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="http://www.linkedin.com/in/thepawanluhana">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="http://www.github.com/thepawanluhana">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
+<html>
+    <head>
+        <title>The Pawan Luhana</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+        
+    </head>
+    <body>
+        <div class="jumbotron text-center header">
+          <h1 id="myName"></h1>
         </div>
-      </section>
+          
+          <nav class="navbar navbar-expand-sm navbar-light">
+            <a class="navbar-brand" id="brand">ThePawanLuhana</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <div class="navbar-nav mx-auto">
+                  <!-- <a class="nav-item nav-link active" id="about">About</a> -->
+                  <a class="nav-item nav-link" id="experience">Experience</a>
+                  <a class="nav-item nav-link" id="education">Education</a>
+                  <a class="nav-item nav-link" id="skills">Skills</a>
+                  <a class="nav-item nav-link" id="interest">Interest
+                  <a class="nav-item nav-link" id="awards">Awards</a>
+                  <a class="nav-item nav-link" id="contact">Contact</a>    
+              </div>
+            </div>  
+          </nav>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Associate Technical Consultant</h3>
-              <div class="subheading mb-3">Streebo Solutions</div>
-              <p>I am currently working here as a Software Developer. My role is to write and manage the code with coming up with different solutions for the problems arising through the project. I also have built an infrastucture for the project for different environments.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">June 2018 - Present</span>
-            </div>
+          <div id="about-section">
+            <p> I'm a full-stack developer. I have diverse skill set of Java, C, C++, Javascript, Angular,
+               Android and iOS. I love my work and enjoy each new project as I get it.</p>
+          </div>
+          <div id="experience-section">
+              <div>
+                <i class="fas fa-briefcase fa-3x"></i>
+                <h1>ASSOCIATE TECHNICAL CONSULTANT</h1>
+                <h3>STREEBO SOLUTIONS</h3>
+                <p>I am currently working here as a Software Developer. My role is to write and manage the code with coming up with 
+                different solutions for the problems arising through the project. I also have built an infrastucture for the project for
+                different environments.</p>
+              </div>
+              <div>
+                <h6>June 2019 - Present</h6>
+              </div>
           </div>
 
-        </div>
-
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">GLS University</h3>
-              <div class="subheading mb-3">Master of Science in Information Technology</div>
-              <div>Computer Science - Mobile Application Developer Track</div>
+          <div id="education-section">
+            <div>
+              <i class="fas fa-graduation-cap fa-3x"></i>
+              <h1>GLS UNIVERSITY</h1>
+              <h3>MASTER OF SCIENCE IN INFORMATION TECHNOLOGY</h3>
+              <p>Computer Science - Mobile Application Developer Track</p>
               <p>CGPA: 8.44</p>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">June 2016 - May 2018</span>
+            <div>
+              <h6>June 2016 - May 2018</h6>
             </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">St. Xaviers Institute of Computer Technology</h3>
-              <div class="subheading mb-3">Bachelor of Computer Applications</div>
+            <hr>
+            <div>
+              <i class="fas fa-graduation-cap fa-3x"></i>
+              <h1>ST. XAVIERS INSTITUTE OF COMPUTER TECHNOLOGY</h1>
+              <h3>BACHELOR OF COMPUTER APPLICATIONS</h3>
               <p>CGPA: 7.77</p>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">June 2013 - May 2016</span>
+            <div>
+              <h6>June 2013 - May 2016</h6>
             </div>
           </div>
+          
+          <div id="interest-section">
+            <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
 
+            <p>When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+          </div>
+
+          <div id="skills-section">
+            <h3>Programming Languages & Frameworks</h3>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-check"></i>Android</li>
+              <li><i class="fa-li fa fa-check"></i>iOS</li>
+              <li><i class="fa-li fa fa-check"></i>Java</li>
+              <li><i class="fa-li fa fa-check"></i>Javascript</li>
+              <li><i class="fa-li fa fa-check"></i>Angular</li>
+              <li><i class="fa-li fa fa-check"></i>VB.Net</li>
+            </ul>
+            </br>
+            <h3>Tools Used</h3>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-check"></i>Eclipse</li>
+              <li><i class="fa-li fa fa-check"></i>Android Studio</li>
+              <li><i class="fa-li fa fa-check"></i>XCode</li>
+              <li><i class="fa-li fa fa-check"></i>Visual Studio Code</li>
+            </ul>
+          </div>
+
+          <div id="awards-section">
+            <ul class="fa-ul">
+              <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                Participated in inter college computer quiz competition at Chimanbhai Patel Institute of Computer Applications.
+              </li>
+              </br>
+              <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                1<sup>st</sup>
+                Place - Group dance competition at St. Xavier's Institute of Computer Application.
+              </li>
+            </ul>
+          </div>
+
+          <div id="contact-section">
+            <a href="mailto:pawan.luhana@gmail.com" target="_blank"><i class="fas fa-envelope fa-5x"></i></a>
+            <a href="https://twitter.com/thepawanluhana" target="_blank"><i class="fab fa-twitter fa-5x"></i></a>
+            <a href="https://www.linkedin.com/in/thepawanluhana" target="_blank"><i class="fab fa-linkedin-in fa-5x"></i></a>
+            <a href="https://www.github.com/thepawanluhana" target="_blank"><i class="fab fa-github fa-5x"></i></a>
+          </div>
         </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
-
-
-          <div class="subheading mb-3">Programming Languages & Frameworks</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Android</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              iOS</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Java</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Javascript</li>
-			<li>
-              <i class="fa-li fa fa-check"></i>
-              Angular</li>
-			<li>
-              <i class="fa-li fa fa-check"></i>
-              VB.Net</li>
-			<li>
-          </ul>
-        </div>
-		<br>
-		
-		<div class="subheading mb-3">Tools Used</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Eclipse</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Android Studio</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              XCode</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Visual Studio Code</li>
-			<li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-        <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
-        </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-        <div class="my-auto">
-          <h2 class="mb-5">Awards &amp; Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Participated in inter college computer quiz competition at Chimanbhai Patel Institute of Computer Applications.</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - Group dance competition at St. Xavier's Institute of Computer Application </li>
-          </ul>
-        </div>
-      </section>
-
-    </div>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
-
-  </body>
-
+        <!--<div id="flag">
+          <h3>Contact for your own personalized & free portfolio!!</h3>
+        </div>-->
+    </body>
+    <script src="script.js"></script>
 </html>

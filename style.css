@@ -1,0 +1,233 @@
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+.header {
+    margin-bottom: 0px !important;
+    padding-bottom: 0% !important;
+    min-height: 400px;
+    background-color: #242424 !important;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.jumbotron h1 {
+    color: #679267 !important;
+    font-size: 150px !important;
+}
+
+.navbar {
+    margin-top: -80px;
+    background-color: transparent !important;
+    text-align: center !important;
+}
+
+.nav-link {
+    font-size: xx-large;
+    color: #679267 !important;
+}
+
+.nav-link:hover {
+    color: #fdfff5 !important;
+}
+
+.navbar-brand {
+    color: #679267 !important;
+}
+
+.navbar .navbar-toggler {
+    border-color: #679267 !important;
+}
+
+#about-section {
+    margin: 150px 150px;
+    font-size: x-large;
+    color: #679267;
+    text-align: center;
+}
+
+#experience-section {
+    margin: 100px 150px;
+}
+
+#experience-section h1{
+    font-size: xx-large;
+}
+
+#experience-section h3{
+    font-size: x-large;
+    color: #242424;
+}
+
+#experience-section p{
+    margin-top: 20px;
+    font-size: large;
+    color: #679267;
+}
+
+#education-section {
+    margin: 100px 150px;
+}
+
+#education-section h1{
+    font-size: xx-large;
+}
+
+#education-section h3{
+    font-size: x-large;
+    color: #242424;
+}
+
+#education-section p{
+    color: #679267;
+    margin-top: 20px;
+    font-size: large;
+}
+
+#interest-section {
+    margin: 90px 150px;
+    font-size: x-large;
+    color: #679267;
+    text-align: justify;
+}
+
+#skills-section {
+    margin: 100px 150px;
+}
+
+#skills-section h3{
+    font-size: larger;
+}
+
+#skills-section ul {
+    margin: 0px 40px;
+    font-size: large;
+    color: #679267;
+}
+
+#awards-section {
+    margin: 100px 150px;
+}
+
+#awards-section ul{
+    font-size: x-large;
+    color: #679267;
+}
+
+#contact-section {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+#contact-section .fab {
+    margin: 70px;
+}
+#contact-section .fas {
+    margin: 70px;
+}
+
+.fa-envelope:hover{
+    color: #FAAF3A;
+}
+
+.fa-twitter:hover{
+    color: #00acee;
+}
+
+.fa-linkedin-in:hover{
+    color: #0e76a8;
+}
+
+.fa-github:hover{
+    color: #F4CBB2;
+}
+
+#flag {
+    background-color: red;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+a {
+    color: #242424 !important;
+}
+
+
+@media (max-width: 1024px) {
+    .jumbotron h1 {
+        font-size: 100px !important;
+    }
+
+    .header {
+        min-height: 400px;
+    }
+
+    .nav-link {
+        font-size: x-large !important;
+    }
+
+    .jumbotron h1 {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .jumbotron h1 {
+        font-size: 100px !important;
+    }
+
+    .header {
+        min-height: 500px;
+    }
+
+    .navbar {
+        margin-top: 0px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .nav-link {
+        font-size: medium !important;
+    }
+
+    .jumbotron h1 {
+        font-size: 80px;
+    }
+
+    .navbar-expand-sm  {
+        background-color: #242424 !important;
+    }
+
+    #about-section {
+        margin: 40px 40px;
+    }
+
+    #experience-section {
+        margin: 50px 40px;
+        text-align: justify;
+    }
+
+    #education-section {
+        margin: 50px 40px;
+    }
+
+    #interest-section {
+        margin: 40px 40px;
+        font-size: larger;
+        text-align: justify;
+    }
+
+    #skills-section {
+        margin: 40px 40px;
+    }
+
+    #awards-section {
+        margin: 50px 30px;
+    }
+
+    #flag h3{
+        font-size: smaller;
+    }
+}
